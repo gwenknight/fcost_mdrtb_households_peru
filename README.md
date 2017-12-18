@@ -2,11 +2,10 @@
 Code for estimating fitness costs to MDR-TB in households in Lima, Peru
 
 ## Abbreviations:
-“Bi”: burn in of 10years included
+“Bix”: burn in of x years included (10 years or sensitivity analysis of burn-in of 30years)
 “Fp1”: model 1 (transmission cost)
 “Fp2”: model 2 (progression cost)
 “Fp3”: model 3 (combined cost)
-“Bi30”: sensitivity analysis of burn-in of 30years
 “lhs”: latin hypercube sampling code
 
 
@@ -22,6 +21,11 @@ The initial sampling for the standard deviation for the subsequent MCMC sampler 
 bi_mcmc_functions.R
 The functions for running the MCMC sampler with burn-in are here.
 
+## MCMC run
+bi_fp#_mcmc_peru_c.R
+The code for running each model with the MCMC sampler are here.
+
+## MCMC checks
 bi_fp#_look_at_output_parallel.R
 Checks of the MCMC sampler with plots are here. 
 

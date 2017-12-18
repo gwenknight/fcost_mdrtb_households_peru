@@ -4,10 +4,6 @@ library("truncnorm"); library("coda");library("compiler")
 library("adaptivetau"); library("plyr"); library("lhs")
 enableJIT(1)
 
-# Home
-#home<-"~/Dropbox/Imperial/TB MAc/"
-#setwd(home)
-
 # Only load at beginning
 source("bi_gillespie_simple_peru_code_withRecovered_allM2.R")
 source("bi_mcmc_functions.R")

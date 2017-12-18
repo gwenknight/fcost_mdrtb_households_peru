@@ -5,7 +5,7 @@
 peru_model_hh_fastprog1 <- function(FOIv,betav, omegav, iniv,hhn, parain,time_frame){
   # FOIv = vector of force of infection. c(FOI_R, FOI_S)
   # betav = vector of beta_int and fitness c(BETA, F)
-  # omegav = vector of treatment rates and treatment success c(OMEGAS, OMEGAR, KS, KR) NEEDED?? 
+  # omegav = vector of treatment rates and treatment success
   # iniv = vector of initial conditions. 
   # hhn = how many in house 
   # prograte = rate of progression of fast
@@ -105,7 +105,7 @@ peru_model_hh_fastprog1 <- function(FOIv,betav, omegav, iniv,hhn, parain,time_fr
 peru_model_hh_fastprog2 <- function(FOIv,betav, omegav, iniv,hhn, parain,time_frame){
   # FOIv = vector of force of infection. c(FOI_R, FOI_S)
   # betav = vector of beta_int and fitness c(BETA, F)
-  # omegav = vector of treatment rates and treatment success c(OMEGAS, OMEGAR, KS, KR) NEEDED?? 
+  # omegav = vector of treatment rates and treatment success 
   # iniv = vector of initial conditions. 
   # hhn = how many in house 
   # prograte = rate of progression of fast
@@ -204,7 +204,7 @@ peru_model_hh_fastprog2 <- function(FOIv,betav, omegav, iniv,hhn, parain,time_fr
 peru_model_hh_fastprog3 <- function(FOIv,betav, omegav, iniv,hhn, parain,time_frame){
   # FOIv = vector of force of infection. c(FOI_R, FOI_S)
   # betav = vector of beta_int and fitness c(BETA, F)
-  # omegav = vector of treatment rates and treatment success c(OMEGAS, OMEGAR, KS, KR) NEEDED?? 
+  # omegav = vector of treatment rates and treatment success
   # iniv = vector of initial conditions. 
   # hhn = how many in house 
   # prograte = rate of progression of fast
