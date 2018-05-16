@@ -40,12 +40,12 @@ peru_model_hh_fastprog1 <- function(FOIv,betav, omegav, iniv,hhn, parain,time_fr
                      c(AS = -1, LS = +1),
                      c(AR = -1, LR = +1),
                      
-                     c(LS = -1,  U = +1,hhn = -1, dead = +1),
-                     c(AS = -1,  U = +1,hhn = -1, dead = +1),
-                     c(LR = -1,  U = +1,hhn = -1, dead = +1),
-                     c(AR = -1,  U = +1,hhn = -1, dead = +1),
-                     c(LfS = -1, U = +1,hhn = -1, dead = +1),
-                     c(LfR = -1, U = +1,hhn = -1, dead = +1),
+                     c(LS = -1,  C = +1,hhn = -1, dead = +1),
+                     c(AS = -1,  C = +1,hhn = -1, dead = +1),
+                     c(LR = -1,  C = +1,hhn = -1, dead = +1),
+                     c(AR = -1,  C = +1,hhn = -1, dead = +1),
+                     c(LfS = -1, C = +1,hhn = -1, dead = +1),
+                     c(LfR = -1, c = +1,hhn = -1, dead = +1),
                      c(U = -1, C = +1,hhn = -1, dead = +1))
   
   rates <- function(x,parain,t){
@@ -140,12 +140,12 @@ peru_model_hh_fastprog2 <- function(FOIv,betav, omegav, iniv,hhn, parain,time_fr
                      c(AS = -1, LS = +1),
                      c(AR = -1, LR = +1),
                      
-                     c(LS = -1,  U = +1,hhn = -1, dead = +1),
-                     c(AS = -1,  U = +1,hhn = -1, dead = +1),
-                     c(LR = -1,  U = +1,hhn = -1, dead = +1),
-                     c(AR = -1,  U = +1,hhn = -1, dead = +1),
-                     c(LfS = -1, U = +1,hhn = -1, dead = +1),
-                     c(LfR = -1, U = +1,hhn = -1, dead = +1),
+                     c(LS = -1,  C = +1,hhn = -1, dead = +1),
+                     c(AS = -1,  C = +1,hhn = -1, dead = +1),
+                     c(LR = -1,  C = +1,hhn = -1, dead = +1),
+                     c(AR = -1,  C = +1,hhn = -1, dead = +1),
+                     c(LfS = -1, C = +1,hhn = -1, dead = +1),
+                     c(LfR = -1, C = +1,hhn = -1, dead = +1),
                      c(U = -1, C = +1,hhn = -1, dead = +1))
   
   rates <- function(x,parain,t){
@@ -239,12 +239,12 @@ peru_model_hh_fastprog3 <- function(FOIv,betav, omegav, iniv,hhn, parain,time_fr
                      c(AS = -1, LS = +1),
                      c(AR = -1, LR = +1),
                      
-                     c(LS = -1,  U = +1,hhn = -1, dead = +1),
-                     c(AS = -1,  U = +1,hhn = -1, dead = +1),
-                     c(LR = -1,  U = +1,hhn = -1, dead = +1),
-                     c(AR = -1,  U = +1,hhn = -1, dead = +1),
-                     c(LfS = -1, U = +1,hhn = -1, dead = +1),
-                     c(LfR = -1, U = +1,hhn = -1, dead = +1),
+                     c(LS = -1,  C = +1,hhn = -1, dead = +1),
+                     c(AS = -1,  C = +1,hhn = -1, dead = +1),
+                     c(LR = -1,  C = +1,hhn = -1, dead = +1),
+                     c(AR = -1,  C = +1,hhn = -1, dead = +1),
+                     c(LfS = -1, C = +1,hhn = -1, dead = +1),
+                     c(LfR = -1, C = +1,hhn = -1, dead = +1),
                      c(U = -1, C = +1,hhn = -1, dead = +1))
   
   rates <- function(x,parain,t){
